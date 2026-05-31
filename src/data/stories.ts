@@ -24,7 +24,7 @@ export const stories: Story[] = [
     title: "Dhuhr on the Staircase",
     description:
       "A prayer noticed from a bus window, hidden inside the geometry of a city building.",
-    coverImage: "images/DSC00729.jpg",
+    coverImage: "images/DSC00729.webp",
     coverFit: "contain",
     category: "Street",
     date: "2026",
@@ -35,7 +35,7 @@ export const stories: Story[] = [
     ],
     images: [
       {
-        image: "images/DSC00729.jpg",
+        image: "images/DSC00729.webp",
         caption:
           "A small act of prayer held inside concrete, metal rails, and passing distance.",
         alt: "Dhuhr prayer on an emergency staircase seen from a bus window.",
@@ -47,7 +47,7 @@ export const stories: Story[] = [
     title: "Clay by the River",
     description:
       "A boy builds a small world from the riverbank.",
-    coverImage: "images/DSC01761.jpg",
+    coverImage: "images/DSC01761.webp",
     coverFit: "contain",
     category: "Human Stories",
     date: "2026",
@@ -58,7 +58,7 @@ export const stories: Story[] = [
     ],
     images: [
       {
-        image: "images/DSC01761.jpg",
+        image: "images/DSC01761.webp",
         caption:
           "The river moves beside him while his hands stay busy with a tiny clay world.",
         alt: "Boy playing with clay beside a river in warm light.",
@@ -70,7 +70,7 @@ export const stories: Story[] = [
     title: "Hands at Work",
     description:
       "A quiet craft in the noise of everyday life.",
-    coverImage: "images/DSC00392.jpg",
+    coverImage: "images/DSC00392.webp",
     coverFit: "contain",
     category: "Street",
     date: "2026",
@@ -81,7 +81,7 @@ export const stories: Story[] = [
     ],
     images: [
       {
-        image: "images/DSC00392.jpg",
+        image: "images/DSC00392.webp",
         caption:
           "Tools, keys, metal dust, and hands moving with practiced patience.",
         alt: "Hands working on a key with tools and metal parts on a dark street workbench.",
@@ -93,7 +93,7 @@ export const stories: Story[] = [
     title: "Worth Stopping For",
     description:
       "He joked, \"এ খালি ছবি তোলে.\" But some faces are worth stopping for.",
-    coverImage: "images/DSC01805.jpg",
+    coverImage: "images/DSC01805.webp",
     coverFit: "contain",
     category: "Human Stories",
     date: "2026",
@@ -104,13 +104,13 @@ export const stories: Story[] = [
     ],
     images: [
       {
-        image: "images/DSC01805.jpg",
+        image: "images/DSC01805.webp",
         caption:
           "The black and white frame keeps the attention on his face, expression, and years.",
         alt: "Black and white portrait of an elderly man wearing a headscarf in a rural field.",
       },
       {
-        image: "images/DSC01805-2.jpg",
+        image: "images/DSC01805-2.webp",
         caption:
           "The color frame brings back the heat of the field, the pink cloth, and the afternoon around him.",
         alt: "Color portrait of an elderly man wearing a pink headscarf in a rural field with hay and trees behind him.",
@@ -122,7 +122,7 @@ export const stories: Story[] = [
     title: "Rain Made Designs",
     description:
       "Three quiet frames where water becomes shape, softness, and pattern.",
-    coverImage: "images/DSC00844.jpg",
+    coverImage: "images/DSC00844.webp",
     coverFit: "contain",
     category: "Macro",
     date: "2026",
@@ -133,19 +133,19 @@ export const stories: Story[] = [
     ],
     images: [
       {
-        image: "images/DSC00836.jpg",
+        image: "images/DSC00836.webp",
         caption:
           "On the rose leaf, each drop becomes a small lens holding the morning inside it.",
         alt: "Raindrops resting on rose leaves in a soft macro photograph.",
       },
       {
-        image: "images/DSC00842.jpg",
+        image: "images/DSC00842.webp",
         caption:
           "The flowers keep the rain for a little longer, turning color into something softer.",
         alt: "Pink flowers with small raindrops after rainfall.",
       },
       {
-        image: "images/DSC00844.jpg",
+        image: "images/DSC00844.webp",
         caption:
           "The spider net becomes visible only because the water chooses every thread.",
         alt: "Raindrops on a spider web forming a delicate pattern between dark leaves.",
@@ -157,7 +157,7 @@ export const stories: Story[] = [
     title: "Mango Tree Lamp",
     description:
       "A tiny mushroom became a lamp because the camera refused to see it normally.",
-    coverImage: "images/DSC00913.jpg",
+    coverImage: "images/DSC00913.webp",
     coverFit: "contain",
     category: "Macro",
     date: "2026",
@@ -168,7 +168,7 @@ export const stories: Story[] = [
     ],
     images: [
       {
-        image: "images/DSC00913.jpg",
+        image: "images/DSC00913.webp",
         caption:
           "The glow is an edit, but the idea began with the angle: a mushroom pretending to be a lamp.",
         alt: "Tiny mushroom on a mango tree glowing like a miniature table lamp in a dark macro photograph.",
@@ -180,7 +180,7 @@ export const stories: Story[] = [
     title: "Small Battlefield",
     description:
       "A tiny struggle on moss, missed from human height.",
-    coverImage: "images/DSC00882.jpg",
+    coverImage: "images/DSC00882.webp",
     coverFit: "contain-mobile",
     category: "Macro",
     date: "2026",
@@ -191,7 +191,7 @@ export const stories: Story[] = [
     ],
     images: [
       {
-        image: "images/DSC00882.jpg",
+        image: "images/DSC00882.webp",
         caption:
           "A lone red ant becomes visible only when the camera lowers itself into its world.",
         alt: "Black ants attacking a red ant on a mossy surface in a macro scene.",
@@ -203,7 +203,7 @@ export const stories: Story[] = [
     title: "Borrowed Colors",
     description:
       "A boy carries the brightest things in the frame, but none of that color belongs to him.",
-    coverImage: "images/DSC00491.jpg",
+    coverImage: "images/DSC00491.webp",
     coverFit: "contain",
     category: "Street",
     date: "2026",
@@ -214,7 +214,7 @@ export const stories: Story[] = [
     ],
     images: [
       {
-        image: "images/DSC00491.jpg",
+        image: "images/DSC00491.webp",
         caption:
           "The color belongs to the things for sale; the silence belongs to the boy carrying them.",
         alt: "Boy selling cotton candy and balloons, with the goods saturated in color and the boy edited in black and white.",
@@ -226,7 +226,7 @@ export const stories: Story[] = [
     title: "Life Still Continues",
     description:
       "Water becomes life on the bright side, and loss on the dark side.",
-    coverImage: "images/DSC01141.jpg",
+    coverImage: "images/DSC01141.webp",
     coverFit: "contain-mobile",
     category: "Moody",
     date: "2026",
@@ -237,7 +237,7 @@ export const stories: Story[] = [
     ],
     images: [
       {
-        image: "images/DSC01141.jpg",
+        image: "images/DSC01141.webp",
         caption:
           "A still bird rests in the dark while rain keeps moving through the brighter side of the frame.",
         alt: "Dead bird on the left side of a dark rainy scene with bright raindrops splashing on grass to the right.",
@@ -249,7 +249,7 @@ export const stories: Story[] = [
     title: "Golden Core Memory",
     description:
       "A child riding with his father, and far ahead, a grown man walking alone.",
-    coverImage: "images/DSC00853.jpg",
+    coverImage: "images/DSC00853.webp",
     coverFit: "contain",
     category: "Human Stories",
     date: "2026",
@@ -260,7 +260,7 @@ export const stories: Story[] = [
     ],
     images: [
       {
-        image: "images/DSC00853.jpg",
+        image: "images/DSC00853.webp",
         caption:
           "A father and child share the foreground while a solitary figure waits at the end of the road.",
         alt: "Father and child riding a bicycle down a green road with a lone man walking far ahead.",

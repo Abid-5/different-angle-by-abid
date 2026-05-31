@@ -61,7 +61,7 @@ export function Home() {
       <section className="section-shell pb-28">
         <div className="relative overflow-hidden rounded-[8px] border border-white/10 bg-charcoal px-6 py-16 sm:px-10 lg:px-14">
           <img
-            src="images/DSC00729.jpg"
+            src="images/DSC00729.webp"
             alt=""
             loading="lazy"
             className="absolute inset-0 h-full w-full object-cover opacity-36"
