@@ -36,7 +36,7 @@ export function HeroSection() {
     <section className="relative flex min-h-[100svh] items-end overflow-hidden">
       <img
         ref={imageRef}
-        src="images/DSC02065.jpg"
+        src="images/DSC02065.webp"
         alt="Cinematic golden moon rising in deep twilight over city rooftops and tree silhouettes."
         className="absolute inset-0 h-full w-full object-cover"
       />

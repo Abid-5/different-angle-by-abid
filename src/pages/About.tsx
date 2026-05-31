@@ -36,7 +36,7 @@ export function About() {
         <ScrollReveal delay={0.08} className="grid gap-6 md:grid-cols-[0.82fr_1fr] md:items-end">
           <figure className="overflow-hidden rounded-[8px] border border-white/10 bg-charcoal">
             <img
-              src="images/DSC01787.jpg"
+              src="images/DSC01787.webp"
               alt="Portrait of Abid Shahriar sitting beside a river with a boat and power lines in the background."
               loading="eager"
               className="aspect-[4/5] w-full object-cover object-[50%_42%]"

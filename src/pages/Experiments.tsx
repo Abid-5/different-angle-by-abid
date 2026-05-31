@@ -31,8 +31,8 @@ export function Experiments() {
       <section className="section-shell grid gap-10 pb-24 lg:grid-cols-[0.92fr_1.08fr] lg:items-center">
         <ScrollReveal>
           <BeforeAfterSlider
-            before="images/DSC01805-2.jpg"
-            after="images/DSC01805.jpg"
+            before="images/DSC01805-2.webp"
+            after="images/DSC01805.webp"
             beforeAlt="Original color portrait of an elderly man in a rural field."
             afterAlt="Cinematic black and white portrait highlighting character and texture."
           />
