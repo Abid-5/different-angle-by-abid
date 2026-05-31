@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1080" role="img" aria-label="Hands at work">
+  <defs>
+    <radialGradient id="light" cx="42%" cy="34%" r="58%"><stop stop-color="#d6a84f" stop-opacity=".55"/><stop offset=".7" stop-color="#090909"/></radialGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".78" numOctaves="3" seed="45"/><feComponentTransfer><feFuncA type="table" tableValues="0 .15"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="900" height="1080" fill="#070707"/>
+  <rect width="900" height="1080" fill="url(#light)"/>
+  <path d="M0 730c220-94 516-86 900 14v336H0Z" fill="#030303" opacity=".75"/>
+  <g fill="#c8aa78" opacity=".88">
+    <path d="M196 586c90-76 182-90 276-42 26 14 34 48 12 68-66 58-172 66-310 32-34-8-34-34 22-58Z"/>
+    <path d="M704 628c-104-72-204-76-300-14-24 16-28 52-2 70 72 48 180 42 314-8 34-12 34-34-12-48Z"/>
+  </g>
+  <rect x="238" y="704" width="420" height="40" rx="20" fill="#d6a84f" opacity=".28"/>
+  <rect width="900" height="1080" filter="url(#grain)" opacity=".86"/>
+</svg>

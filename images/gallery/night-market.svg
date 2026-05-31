@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1040" role="img" aria-label="Night market">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#120d0b"/><stop offset=".6" stop-color="#080808"/><stop offset="1" stop-color="#030303"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".8" numOctaves="3" seed="9"/><feComponentTransfer><feFuncA type="table" tableValues="0 .15"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="900" height="1040" fill="url(#bg)"/>
+  <g opacity=".7">
+    <circle cx="150" cy="220" r="76" fill="#d6a84f"/><circle cx="438" cy="170" r="58" fill="#f5d481"/><circle cx="724" cy="240" r="66" fill="#6ee7b7"/>
+  </g>
+  <g fill="#070707">
+    <rect x="72" y="510" width="752" height="250" rx="12"/>
+    <path d="M122 510 210 330h480l88 180Z"/>
+    <path d="M270 760h56v210h-56zM584 760h56v210h-56z"/>
+    <circle cx="442" cy="604" r="42"/><path d="M380 760c10-86 34-126 64-126s54 40 66 126Z"/>
+  </g>
+  <rect width="900" height="1040" filter="url(#grain)" opacity=".85"/>
+</svg>

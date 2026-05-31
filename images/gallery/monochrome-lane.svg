@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1320" role="img" aria-label="Monochrome lane">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2d2d2d"/><stop offset=".62" stop-color="#090909"/><stop offset="1" stop-color="#000"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".82" numOctaves="3" seed="60"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .18"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="900" height="1320" fill="url(#bg)"/>
+  <path d="M0 0h250l-72 1320H0ZM900 0H650l72 1320h178Z" fill="#111"/>
+  <path d="M248 0h402l76 1320H174Z" fill="#262626" opacity=".55"/>
+  <path d="M402 1060c6-138 20-218 48-218s42 80 48 218Z" fill="#030303"/>
+  <circle cx="450" cy="802" r="30" fill="#030303"/>
+  <rect width="900" height="1320" filter="url(#grain)" opacity=".9"/>
+</svg>

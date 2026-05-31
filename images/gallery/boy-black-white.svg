@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1180" role="img" aria-label="Boy in black and white">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2a2a2a"/><stop offset=".55" stop-color="#090909"/><stop offset="1" stop-color="#000"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".78" numOctaves="3" seed="31"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .2"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="900" height="1180" fill="url(#bg)"/>
+  <g opacity=".22">
+    <rect x="70" y="110" width="170" height="760" fill="#fff"/><rect x="308" y="70" width="120" height="650" fill="#fff"/><rect x="650" y="150" width="170" height="720" fill="#fff"/>
+  </g>
+  <circle cx="454" cy="422" r="90" fill="#050505"/>
+  <path d="M318 1050c16-296 72-460 136-460s124 164 142 460Z" fill="#030303"/>
+  <path d="M0 850c256-54 548-54 900 24v306H0Z" fill="#090909" opacity=".9"/>
+  <rect width="900" height="1180" filter="url(#grain)" opacity=".9"/>
+</svg>

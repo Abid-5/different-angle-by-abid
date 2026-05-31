@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 980" role="img" aria-label="Misty nature path">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#193228"/><stop offset=".55" stop-color="#0b1712"/><stop offset="1" stop-color="#030403"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".75" numOctaves="3" seed="27"/><feComponentTransfer><feFuncA type="table" tableValues="0 .13"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="900" height="980" fill="url(#bg)"/>
+  <path d="M0 518c220-114 516-132 900 24v438H0Z" fill="#07100c"/>
+  <path d="M392 980c-30-230 20-366 112-492 86 128 118 268 90 492Z" fill="#d6a84f" opacity=".16"/>
+  <g stroke="#6ee7b7" stroke-opacity=".22" stroke-width="4">
+    <path d="M116 0v620M246 0v536M718 0v598M800 0v512"/>
+  </g>
+  <rect y="190" width="900" height="360" fill="#dfffee" opacity=".08"/>
+  <rect width="900" height="980" filter="url(#grain)" opacity=".82"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1160" role="img" aria-label="Phone reflecting sunset">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#2c1a22"/><stop offset=".45" stop-color="#111417"/><stop offset="1" stop-color="#020202"/></linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2b252"/><stop offset=".45" stop-color="#6ee7b7"/><stop offset="1" stop-color="#121212"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".74" numOctaves="3" seed="19"/><feComponentTransfer><feFuncA type="table" tableValues="0 .14"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="900" height="1160" fill="url(#sky)"/>
+  <circle cx="330" cy="292" r="128" fill="#d6a84f" opacity=".5"/>
+  <path d="M0 520c212-84 404-70 900 38v602H0Z" fill="#050505" opacity=".76"/>
+  <rect x="254" y="360" width="394" height="624" rx="48" fill="#050505" stroke="#fff" stroke-opacity=".16" stroke-width="8" transform="rotate(-8 451 672)"/>
+  <rect x="286" y="392" width="330" height="560" rx="34" fill="url(#screen)" transform="rotate(-8 451 672)" opacity=".86"/>
+  <path d="M294 690c112-82 220-84 344-12" stroke="#fff" stroke-opacity=".38" stroke-width="4" fill="none"/>
+  <rect width="900" height="1160" filter="url(#grain)" opacity=".8"/>
+</svg>
