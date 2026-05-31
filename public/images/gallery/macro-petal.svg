@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1040" role="img" aria-label="Macro petal detail">
+  <defs>
+    <linearGradient id="petal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d6a84f"/><stop offset=".46" stop-color="#7c3341"/><stop offset="1" stop-color="#080808"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".78" numOctaves="3" seed="15"/><feComponentTransfer><feFuncA type="table" tableValues="0 .14"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="900" height="1040" fill="#050505"/>
+  <path d="M-80 872C154 398 426 122 960-10c-130 446-392 760-1040 882Z" fill="url(#petal)"/>
+  <g stroke="#fff" stroke-opacity=".16" stroke-width="4">
+    <path d="M120 780C300 520 512 306 812 88"/><path d="M238 846C372 592 560 362 852 168"/><path d="M12 656C240 480 446 330 650 214"/>
+  </g>
+  <circle cx="542" cy="318" r="42" fill="#fff" opacity=".22"/>
+  <rect width="900" height="1040" filter="url(#grain)" opacity=".86"/>
+</svg>

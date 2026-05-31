@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1240" role="img" aria-label="Lonely chair">
+  <defs>
+    <radialGradient id="lamp" cx="50%" cy="20%" r="48%"><stop stop-color="#d6a84f" stop-opacity=".62"/><stop offset=".55" stop-color="#322315" stop-opacity=".28"/><stop offset="1" stop-color="#080808"/></radialGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".76" numOctaves="3" seed="24"/><feComponentTransfer><feFuncA type="table" tableValues="0 .16"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="900" height="1240" fill="#070707"/>
+  <rect width="900" height="1240" fill="url(#lamp)"/>
+  <ellipse cx="450" cy="928" rx="220" ry="34" fill="#d6a84f" opacity=".2"/>
+  <g fill="none" stroke="#d9d1c0" stroke-opacity=".72" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M326 650h248v174H326z"/>
+    <path d="M352 824l-60 218M548 824l60 218M350 650l-36-214M550 650l42-214"/>
+    <path d="M314 436h278"/>
+  </g>
+  <rect width="900" height="1240" filter="url(#grain)" opacity=".85"/>
+</svg>

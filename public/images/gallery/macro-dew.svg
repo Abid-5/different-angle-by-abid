@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1280" role="img" aria-label="Macro dew">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020403"/><stop offset=".52" stop-color="#0d1712"/><stop offset="1" stop-color="#050505"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".8" numOctaves="3" seed="11"/><feComponentTransfer><feFuncA type="table" tableValues="0 .12"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="900" height="1280" fill="url(#bg)"/>
+  <path d="M0 840C240 654 500 474 900 282v740C604 960 294 918 0 1064Z" fill="#143326"/>
+  <path d="M46 1000C330 760 604 552 876 398" stroke="#79e8b9" stroke-opacity=".38" stroke-width="4" fill="none"/>
+  <g fill="#f6fffb" opacity=".8">
+    <circle cx="264" cy="846" r="34"/><circle cx="408" cy="742" r="22"/><circle cx="568" cy="626" r="28"/><circle cx="692" cy="530" r="16"/><circle cx="172" cy="924" r="14"/>
+  </g>
+  <g fill="#6ee7b7" opacity=".18"><circle cx="262" cy="846" r="78"/><circle cx="568" cy="626" r="64"/></g>
+  <rect width="900" height="1280" filter="url(#grain)" opacity=".9"/>
+</svg>
