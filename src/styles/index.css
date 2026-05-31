@@ -131,6 +131,20 @@ textarea:focus-visible {
     @apply border border-white/10 bg-white/[0.035] backdrop-blur-xl;
   }
 
+  .mobile-menu-bg {
+    background-color: rgba(8, 8, 8, 0.98) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(32px) !important;
+    -webkit-backdrop-filter: blur(32px) !important;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8) !important;
+  }
+
+  .mobile-header-bg {
+    background-color: rgba(8, 8, 8, 0.98) !important;
+    backdrop-filter: blur(24px) !important;
+    -webkit-backdrop-filter: blur(24px) !important;
+  }
+
   .gold-button {
     @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-gold px-6 py-3 text-sm font-semibold text-black transition hover:bg-[#e2bd68] focus-visible:outline-teal;
   }

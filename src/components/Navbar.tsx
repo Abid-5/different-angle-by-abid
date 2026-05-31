@@ -33,7 +33,7 @@ export function Navbar() {
     <header
       className={`fixed inset-x-0 top-0 z-[70] transition duration-300 ${
         scrolled || menuOpen
-          ? "border-b border-white/10 bg-ink/96 shadow-2xl shadow-black/50 backdrop-blur-3xl"
+          ? "border-b border-white/10 mobile-header-bg shadow-2xl"
           : "bg-transparent"
       }`}
     >
@@ -101,7 +101,7 @@ export function Navbar() {
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.22 }}
           >
-            <div className="border border-white/10 bg-ink/96 backdrop-blur-3xl shadow-2xl shadow-black/80 grid gap-2 rounded-[8px] p-4">
+            <div className="mobile-menu-bg grid gap-2 rounded-[8px] p-4">
               {[...navItems, { label: "Experiments", to: "/experiments" }].map(
                 (item) => (
                   <NavLink
