@@ -1,4 +1,4 @@
-# Different Angle by </AS>
+# Different Angle by Abid
 
 A cinematic photography portfolio for Abid Shahriar. The site is built as a personal visual journal for street photography, nature, macro work, reflections, moody edits, post-rain mornings, sunsets, human stories, and experiments.
 
@@ -14,7 +14,8 @@ A cinematic photography portfolio for Abid Shahriar. The site is built as a pers
 - Accessible lightbox with Esc, previous, and next keyboard controls
 - Contact form UI with local success state
 - Experiments page with before/after slider
-- Local placeholder image assets under `public/images`
+- Optimized photography assets under `public/images`
+- Angular AS identity under `public/brand`
 
 ## Tech Stack
 
@@ -56,7 +57,7 @@ Example:
 
 ```ts
 {
-  id: 17,
+  id: 42,
   title: "Morning After Rain",
   category: "Nature",
   image: "images/gallery/morning-after-rain.webp",
@@ -109,4 +110,4 @@ src/
 
 ## Notes
 
-The current images are local cinematic SVG placeholders. Replace them with your real compressed photos when you are ready to publish the portfolio.
+The gallery uses real photographs. New gallery entries belong in `src/data/photos.ts`, and photo essays belong in `src/data/stories.ts`. The AS avatar is used as the favicon, and the transparent AS mark is used in the navigation and footer.

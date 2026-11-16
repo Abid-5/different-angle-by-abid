@@ -29,8 +29,8 @@ export function PhotoCard({ photo, onOpen }: PhotoCardProps) {
           loading="lazy"
           className="h-auto w-full object-cover transition duration-700 group-hover:scale-[1.035]"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/88 via-black/22 to-transparent opacity-0 transition duration-300 group-hover:opacity-100" />
-        <div className="absolute inset-x-0 bottom-0 translate-y-4 p-5 opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+        <div className="absolute inset-0 bg-gradient-to-t from-black/88 via-black/22 to-transparent opacity-0 transition duration-300 group-hover:opacity-100 group-focus-visible:opacity-100" />
+        <div className="absolute inset-x-0 bottom-0 translate-y-4 p-5 opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100 group-focus-visible:translate-y-0 group-focus-visible:opacity-100">
           <span className="text-xs font-semibold uppercase tracking-[0.24em] text-gold">
             {photo.category}
           </span>

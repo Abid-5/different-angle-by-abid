@@ -84,6 +84,150 @@ export const homeCategories = [
 
 export const photos: Photo[] = [
   {
+    id: 34,
+    title: "At the Net",
+    category: "Human Stories",
+    image: "images/DSC00850.webp",
+    caption: "Fishermen gather around a net by the water.",
+    date: "2026",
+    location: "Bangladesh",
+    alt: "Fishermen working together around a fishing net, with red baskets and dark teal water.",
+    featured: true,
+    exif: {
+      camera: "ILCE-6700",
+      lens: "18-50mm F2.8 DC DN | Contemporary 021",
+      aperture: "f/2.8",
+      shutterSpeed: "1/800s",
+      iso: "ISO 3200"
+    }
+  },
+  {
+    id: 35,
+    title: "A Small Visitor",
+    category: "Nature",
+    image: "images/DSC02006.webp",
+    caption: "An orange butterfly rests among small purple flowers.",
+    date: "2026",
+    location: "Bangladesh",
+    alt: "Orange butterfly perched on purple flowers against a softly blurred green background.",
+    featured: true,
+    exif: {
+      camera: "ILCE-6700",
+      lens: "18-50mm F2.8 DC DN | Contemporary 021",
+      aperture: "f/6.3",
+      shutterSpeed: "1/125s",
+      iso: "ISO 100"
+    }
+  },
+  {
+    id: 36,
+    title: "Through the Train Window",
+    category: "Street",
+    image: "images/DSC01969.webp",
+    caption: "A bridge, water, and passing lines framed by a train window.",
+    date: "2026",
+    location: "Bangladesh",
+    alt: "A distant bridge over water, seen through a dark train window with railings crossing the foreground.",
+    featured: true,
+    exif: {
+      camera: "ILCE-6700",
+      lens: "18-50mm F2.8 DC DN | Contemporary 021",
+      aperture: "f/4",
+      shutterSpeed: "1/2000s",
+      iso: "ISO 100"
+    }
+  },
+  {
+    id: 37,
+    title: "Rain at the Window",
+    category: "Moody",
+    image: "images/DSC00119.webp",
+    caption: "Raindrops hold the light along the window bars.",
+    date: "2026",
+    location: "Bangladesh",
+    alt: "Raindrops clinging beneath dark horizontal window bars against blurred green foliage.",
+    featured: true,
+    exif: {
+      camera: "ILCE-6700",
+      lens: "18-50mm F2.8 DC DN | Contemporary 021",
+      aperture: "f/2.8",
+      shutterSpeed: "1/500s",
+      iso: "ISO 12800"
+    }
+  },
+  {
+    id: 38,
+    title: "Spider on Bark",
+    category: "Macro",
+    image: "images/DSC00907.webp",
+    caption: "A small spider against the texture of a tree.",
+    date: "2026",
+    location: "Bangladesh",
+    alt: "A pale spider on dark reddish tree bark, its legs spread across the textured surface.",
+    featured: true,
+    exif: {
+      camera: "ILCE-6700",
+      lens: "18-50mm F2.8 DC DN | Contemporary 021",
+      aperture: "f/2.8",
+      shutterSpeed: "1/80s",
+      iso: "ISO 500"
+    }
+  },
+  {
+    id: 39,
+    title: "White Feathers",
+    category: "Nature",
+    image: "images/DSC01830.webp",
+    caption: "Soft white feathers against a dark background.",
+    date: "2026",
+    location: "Bangladesh",
+    alt: "Close view of a white duck with ruffled feathers against a dark green background.",
+    featured: true,
+    exif: {
+      camera: "ILCE-6700",
+      lens: "18-50mm F2.8 DC DN | Contemporary 021",
+      aperture: "f/2.8",
+      shutterSpeed: "1/320s",
+      iso: "ISO 100"
+    }
+  },
+  {
+    id: 40,
+    title: "River Under Cloud",
+    category: "Nature",
+    image: "images/DSC02286.webp",
+    caption: "A leafy branch reaches across the water beneath a wide sky.",
+    date: "2026",
+    location: "Bangladesh",
+    alt: "Thin leafy branches stretch over a river under layered blue-grey clouds.",
+    featured: true,
+    exif: {
+      camera: "ILCE-6700",
+      lens: "18-50mm F2.8 DC DN | Contemporary 021",
+      aperture: "f/9",
+      shutterSpeed: "1/200s",
+      iso: "ISO 100"
+    }
+  },
+  {
+    id: 41,
+    title: "Wheel and Shadow",
+    category: "Black & White",
+    image: "images/DSC01837-2.webp",
+    caption: "A bicycle wheel and its shadow in black and white.",
+    date: "2026",
+    location: "Bangladesh",
+    alt: "Black-and-white close view of a bicycle wheel and its dark shadow on the textured ground.",
+    featured: true,
+    exif: {
+      camera: "ILCE-6700",
+      lens: "18-50mm F2.8 DC DN | Contemporary 021",
+      aperture: "f/2.8",
+      shutterSpeed: "1/1000s",
+      iso: "ISO 100"
+    }
+  },
+  {
     id: 33,
     title: "Post-Apocalyptic City",
     category: "Experimental",

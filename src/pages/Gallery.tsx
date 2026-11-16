@@ -26,9 +26,7 @@ export function Gallery() {
           <p className="eyeline">Gallery</p>
           <h1 className="section-title mt-5">The archive of ordinary moments.</h1>
           <p className="muted-copy mt-6">
-            Browse the frames by mood, category, and small visual accidents.
-            Every image here is data-driven so new work can be added from one
-            file.
+            Street scenes, small encounters, and details from everyday life.
           </p>
         </ScrollReveal>
         <div className="mt-10">

@@ -4,11 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        ink: "#080808",
-        charcoal: "#121212",
-        smoke: "#A0A0A0",
-        bone: "#F5F5F5",
-        gold: "#D6A84F",
+        ink: "#091411",
+        charcoal: "#12231F",
+        smoke: "#ADB6B0",
+        bone: "#F2EEE5",
+        gold: "#AC8B55",
         teal: "#6EE7B7",
       },
       fontFamily: {

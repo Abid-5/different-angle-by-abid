@@ -248,21 +248,21 @@ export const stories: Story[] = [
     slug: "golden-core-memory",
     title: "Golden Core Memory",
     description:
-      "A child riding with his father, and far ahead, a grown man walking alone.",
+      "A bicycle ride with his father made me think about childhood, and the responsibilities waiting further down the road.",
     coverImage: "images/DSC00853.webp",
     coverFit: "contain",
     category: "Human Stories",
     date: "2026",
     body: [
-      "This frame feels warm at first: a child riding a bicycle with his father, held inside the quiet green tunnel of a village road. It has the softness of a core memory, the kind of ordinary afternoon that becomes golden only after time passes.",
-      "But the far end of the road changes the photograph. A grown man walks alone in the distance, small against the same path. The image becomes less about one ride and more about how life stretches forward: from being carried, to learning balance, to walking by ourselves.",
-      "That contrast is the story. Childhood moves with someone beside us. Adulthood often asks us to keep moving even when the road becomes quieter.",
+      "This scene made me think about growing up. A child rides behind his father on a quiet village road, with someone else taking care of the way ahead. Maybe it is an ordinary afternoon that will become a childhood memory.",
+      "Further down the same road, a man walks away. Perhaps he is heading to work. Perhaps someone is depending on him now. Seeing him ahead of the bicycle made me think about the responsibility that comes with growing older.",
+      "I wonder if the child will remember rides like this when he is older, when someone begins to depend on him too.",
     ],
     images: [
       {
         image: "images/DSC00853.webp",
         caption:
-          "A father and child share the foreground while a solitary figure waits at the end of the road.",
+          "A child rides behind his father while a man walks further down the same road.",
         alt: "Father and child riding a bicycle down a green road with a lone man walking far ahead.",
       },
     ],

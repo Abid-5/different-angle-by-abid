@@ -30,7 +30,7 @@ export function About() {
         <ScrollReveal>
           <p className="eyeline">About Me</p>
           <h1 className="mt-5 max-w-[20rem] break-words font-display text-4xl font-semibold leading-tight text-bone sm:max-w-none sm:text-5xl lg:text-6xl">
-            A software student with a camera and a habit of noticing.
+            A software engineer with a camera and a habit of noticing.
           </h1>
         </ScrollReveal>
         <ScrollReveal delay={0.08} className="grid gap-6 md:grid-cols-[0.82fr_1fr] md:items-end">
@@ -47,7 +47,7 @@ export function About() {
           </figure>
           <div>
             <p className="muted-copy">
-              I am Abid Shahriar, a software engineering student and visual
+              I am Abid Shahriar, a software engineer and visual
               storyteller from Bangladesh. My photography is about noticing the
               small details of everyday life - the quiet streets, reflections,
               post-rain mornings, people, loneliness, nature, and moments that

@@ -1,4 +1,4 @@
-import { Camera, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
@@ -47,9 +47,13 @@ export function Navbar() {
           onClick={() => setMenuOpen(false)}
           aria-label="Different Angle home"
         >
-          <span className="flex size-10 items-center justify-center rounded-full border border-white/15 bg-white/5 text-gold transition group-hover:border-gold/60">
-            <Camera size={18} aria-hidden="true" />
-          </span>
+          <img
+            src="brand/as-monogram.png"
+            alt=""
+            width={64}
+            height={64}
+            className="size-14 shrink-0 brightness-0 invert transition group-hover:opacity-75"
+          />
           <span className="leading-none">
             <span className="block font-display text-xl font-semibold text-bone">
               Different Angle

@@ -1,4 +1,4 @@
-import { Facebook, Github, Mail, Phone } from "lucide-react";
+import { Facebook, Instagram, Mail, Phone } from "lucide-react";
 import { ContactForm } from "../components/ContactForm";
 import { ScrollReveal } from "../components/ScrollReveal";
 import { SmoothPageTransition } from "../components/SmoothPageTransition";
@@ -38,8 +38,13 @@ export function Contact() {
             >
               <Phone size={17} aria-hidden="true" /> WhatsApp
             </a>
-            <a href="https://github.com/" className="ghost-button">
-              <Github size={17} aria-hidden="true" /> GitHub
+            <a
+              href="https://www.instagram.com/differentanglebyabid/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ghost-button"
+            >
+              <Instagram size={17} aria-hidden="true" /> Instagram
             </a>
           </div>
         </ScrollReveal>

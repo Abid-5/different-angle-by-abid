@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Instagram } from "lucide-react";
 import { Link } from "react-router-dom";
 import { AnimatedText } from "../components/AnimatedText";
 import { CategoryCard } from "../components/CategoryCard";
@@ -7,14 +7,61 @@ import { HeroSection } from "../components/HeroSection";
 import { ScrollReveal } from "../components/ScrollReveal";
 import { SmoothPageTransition } from "../components/SmoothPageTransition";
 import { featuredPhotos, homeCategories } from "../data/photos";
+import { stories } from "../data/stories";
 
 import { useDocumentTitle } from "../utils/useDocumentTitle";
 
 export function Home() {
   useDocumentTitle("Home");
+  const featuredStory = stories.find((story) => story.slug === "golden-core-memory");
+
   return (
     <SmoothPageTransition>
       <HeroSection />
+
+      {featuredStory && (
+        <section
+          className="section-shell grid items-center gap-10 py-24 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20"
+          aria-labelledby="featured-story-title"
+        >
+          <ScrollReveal>
+            <Link
+              to={`/stories/${featuredStory.slug}`}
+              className="group block"
+              aria-label={`Read ${featuredStory.title}`}
+            >
+              <img
+                src={featuredStory.coverImage}
+                alt="A child riding behind his father on a bicycle, with a man walking further down the village road."
+                width={3}
+                height={4}
+                loading="lazy"
+                className="mx-auto h-auto w-full max-w-md transition duration-500 group-hover:opacity-90 group-focus-visible:opacity-90"
+              />
+            </Link>
+          </ScrollReveal>
+          <ScrollReveal delay={0.08}>
+            <p className="eyeline">From the journal</p>
+            <h2 id="featured-story-title" className="section-title mt-5">
+              {featuredStory.title}
+            </h2>
+            <p className="muted-copy mt-6 max-w-xl">
+              {featuredStory.description}
+            </p>
+            <Link to={`/stories/${featuredStory.slug}`} className="gold-button mt-8">
+              Read the story <ArrowRight size={17} aria-hidden="true" />
+            </Link>
+            <a
+              href="https://www.instagram.com/differentanglebyabid/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-8 flex w-fit items-center gap-2 text-sm text-smoke transition hover:text-bone"
+            >
+              <Instagram size={18} aria-hidden="true" /> Follow on Instagram
+            </a>
+          </ScrollReveal>
+        </section>
+      )}
 
       <section className="section-shell py-24">
         <ScrollReveal className="max-w-3xl">

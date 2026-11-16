@@ -6,8 +6,8 @@
 
 :root {
   color-scheme: dark;
-  background: #080808;
-  color: #f5f5f5;
+  background: #091411;
+  color: #f2eee5;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -28,8 +28,8 @@ body {
   margin: 0;
   overflow-x: hidden;
   background:
-    linear-gradient(180deg, rgba(8, 8, 8, 0.92), #080808 18%),
-    #080808;
+    linear-gradient(180deg, rgba(9, 20, 17, 0.92), #091411 18%),
+    #091411;
   font-family: Inter, Manrope, system-ui, sans-serif;
 }
 
