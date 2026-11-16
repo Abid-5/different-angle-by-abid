@@ -28,6 +28,8 @@ export type Photo = {
   location: string;
   alt: string;
   featured?: boolean;
+  width?: number;
+  height?: number;
   exif?: EXIFData;
 };
 
@@ -40,47 +42,10 @@ export const filterCategories = [
   "Black & White",
   "Human Stories",
   "Experimental",
+  "Post-Rain Mornings",
 ] as const;
 
 export type FilterCategory = (typeof filterCategories)[number];
-
-export const homeCategories = [
-  {
-    name: "Street",
-    image: "images/DSC00729.webp",
-    description: "Fragments of everyday life, emotion, and movement.",
-  },
-  {
-    name: "Nature",
-    image: "images/DSC01621.webp",
-    description: "Quiet frames from the living world.",
-  },
-  {
-    name: "Macro",
-    image: "images/DSC00882.webp",
-    description: "Small details that usually go unnoticed.",
-  },
-  {
-    name: "Moody Edits",
-    image: "images/DSC01141.webp",
-    description: "Color, shadow, and emotion shaped together.",
-  },
-  {
-    name: "Post-Rain Mornings",
-    image: "images/DSC00836.webp",
-    description: "Fresh silence after the night rain.",
-  },
-  {
-    name: "Human Stories",
-    image: "images/DSC00853.webp",
-    description: "People, loneliness, work, childhood, and life.",
-  },
-  {
-    name: "Experimental",
-    image: "images/DSC00904.webp",
-    description: "Technique, crop, scale, and editing that challenge perspective.",
-  },
-];
 
 export const photos: Photo[] = [
   {
@@ -88,6 +53,8 @@ export const photos: Photo[] = [
     title: "At the Net",
     category: "Human Stories",
     image: "images/DSC00850.webp",
+    width: 1800,
+    height: 1212,
     caption: "Fishermen gather around a net by the water.",
     date: "2026",
     location: "Bangladesh",
@@ -106,6 +73,8 @@ export const photos: Photo[] = [
     title: "A Small Visitor",
     category: "Nature",
     image: "images/DSC02006.webp",
+    width: 1800,
+    height: 1200,
     caption: "An orange butterfly rests among small purple flowers.",
     date: "2026",
     location: "Bangladesh",
@@ -124,6 +93,8 @@ export const photos: Photo[] = [
     title: "Through the Train Window",
     category: "Street",
     image: "images/DSC01969.webp",
+    width: 1800,
+    height: 1200,
     caption: "A bridge, water, and passing lines framed by a train window.",
     date: "2026",
     location: "Bangladesh",
@@ -142,6 +113,8 @@ export const photos: Photo[] = [
     title: "Rain at the Window",
     category: "Moody",
     image: "images/DSC00119.webp",
+    width: 1800,
+    height: 1200,
     caption: "Raindrops hold the light along the window bars.",
     date: "2026",
     location: "Bangladesh",
@@ -160,6 +133,8 @@ export const photos: Photo[] = [
     title: "Spider on Bark",
     category: "Macro",
     image: "images/DSC00907.webp",
+    width: 1350,
+    height: 1800,
     caption: "A small spider against the texture of a tree.",
     date: "2026",
     location: "Bangladesh",
@@ -178,6 +153,8 @@ export const photos: Photo[] = [
     title: "White Feathers",
     category: "Nature",
     image: "images/DSC01830.webp",
+    width: 1800,
+    height: 1125,
     caption: "Soft white feathers against a dark background.",
     date: "2026",
     location: "Bangladesh",
@@ -196,6 +173,8 @@ export const photos: Photo[] = [
     title: "River Under Cloud",
     category: "Nature",
     image: "images/DSC02286.webp",
+    width: 1800,
+    height: 1013,
     caption: "A leafy branch reaches across the water beneath a wide sky.",
     date: "2026",
     location: "Bangladesh",
@@ -214,6 +193,8 @@ export const photos: Photo[] = [
     title: "Wheel and Shadow",
     category: "Black & White",
     image: "images/DSC01837-2.webp",
+    width: 1350,
+    height: 1800,
     caption: "A bicycle wheel and its shadow in black and white.",
     date: "2026",
     location: "Bangladesh",
@@ -232,6 +213,8 @@ export const photos: Photo[] = [
     title: "Post-Apocalyptic City",
     category: "Experimental",
     image: "images/DSC00904.webp",
+    width: 4085,
+    height: 5447,
     caption: "A tight crop and deep angle on a cut mango tree root, edited to resemble the scale and shadow of a post-apocalyptic miniature city.",
     date: "2026",
     location: "Bangladesh",
@@ -250,6 +233,8 @@ export const photos: Photo[] = [
     title: "City Twilight Moon",
     category: "Moody",
     image: "images/DSC02065.webp",
+    width: 5839,
+    height: 3893,
     caption: "The golden moon climbs over the silhouette of city rooftops and dark trees in the quiet blue twilight.",
     date: "2026",
     location: "Bangladesh",
@@ -268,6 +253,8 @@ export const photos: Photo[] = [
     title: "Lunar Crop",
     category: "Experimental",
     image: "images/DSC01328.webp",
+    width: 969,
+    height: 646,
     caption: "Who says you need a telephoto lens to capture the moon? A 56mm prime, a tight crop, and a bit of patience can reveal the craters of another world.",
     date: "2026",
     location: "Bangladesh",
@@ -286,6 +273,8 @@ export const photos: Photo[] = [
     title: "Midday Bath",
     category: "Human Stories",
     image: "images/DSC01834.webp",
+    width: 4396,
+    height: 2931,
     caption: "A quiet moment of care in the heat of midday: a man washes his cow in the calm river waters while a flock of ducks glides silently in the background.",
     date: "2026",
     location: "Bangladesh",
@@ -304,6 +293,8 @@ export const photos: Photo[] = [
     title: "Rural Lines",
     category: "Nature",
     image: "images/DSC01662.webp",
+    width: 3173,
+    height: 5641,
     caption: "A narrow earthen path winds beside a tin-roof house and a vibrant green paddy field, under a moody afternoon sky.",
     date: "2026",
     location: "Bangladesh",
@@ -322,6 +313,8 @@ export const photos: Photo[] = [
     title: "Sky High Hoop",
     category: "Nature",
     image: "images/DSC01621.webp",
+    width: 4128,
+    height: 6192,
     caption: "A sudden pause in the sky: the clouds gather to resemble a basketball player in full flight, framed perfectly by the silhouettes of leaves.",
     date: "2026",
     location: "Bangladesh",
@@ -340,6 +333,8 @@ export const photos: Photo[] = [
     title: "Golden Core Memory",
     category: "Human Stories",
     image: "images/DSC00853.webp",
+    width: 3027,
+    height: 4036,
     caption:
       "A child rides with his father while a grown man walks alone at the far end of the road.",
     date: "2026",
@@ -359,6 +354,8 @@ export const photos: Photo[] = [
     title: "Life Still Continues",
     category: "Moody",
     image: "images/DSC01141.webp",
+    width: 5615,
+    height: 3743,
     caption:
       "Rain gives life on one side of the frame, and takes it away on the other.",
     date: "2026",
@@ -378,6 +375,8 @@ export const photos: Photo[] = [
     title: "Borrowed Colors",
     category: "Street",
     image: "images/DSC00491.webp",
+    width: 3414,
+    height: 4552,
     caption:
       "A boy sells colors he may never get to keep.",
     date: "2026",
@@ -397,6 +396,8 @@ export const photos: Photo[] = [
     title: "Small Battlefield",
     category: "Macro",
     image: "images/DSC00882.webp",
+    width: 3436,
+    height: 2103,
     caption:
       "Black ants surround a lone red ant in a world most eyes would miss.",
     date: "2026",
@@ -416,6 +417,8 @@ export const photos: Photo[] = [
     title: "Mango Tree Lamp",
     category: "Macro",
     image: "images/DSC00913.webp",
+    width: 3141,
+    height: 4188,
     caption:
       "A tiny mushroom becomes a table lamp when the angle changes.",
     date: "2026",
@@ -435,6 +438,8 @@ export const photos: Photo[] = [
     title: "Rose Leaf Orbits",
     category: "Macro",
     image: "images/DSC00836.webp",
+    width: 3661,
+    height: 3661,
     caption:
       "Raindrops rest on rose leaves like small glass worlds.",
     date: "2026",
@@ -454,6 +459,8 @@ export const photos: Photo[] = [
     title: "Flowers After Rain",
     category: "Post-Rain Mornings",
     image: "images/DSC00842.webp",
+    width: 5752,
+    height: 4128,
     caption:
       "Pink flowers hold the last drops after the rain passes.",
     date: "2026",
@@ -473,6 +480,8 @@ export const photos: Photo[] = [
     title: "Web of Rain",
     category: "Macro",
     image: "images/DSC00844.webp",
+    width: 4124,
+    height: 4124,
     caption:
       "Raindrops turn a spider net into a quiet piece of design.",
     date: "2026",
@@ -488,29 +497,12 @@ export const photos: Photo[] = [
     },
   },
   {
-    id: 25,
-    title: "Worth Stopping For",
-    category: "Human Stories",
-    image: "images/DSC01805.webp",
-    caption:
-      "He joked that I only take photos. Some faces are worth stopping for.",
-    date: "2026",
-    location: "Bangladesh",
-    alt: "Black and white portrait of an elderly man in a headscarf looking toward the camera in a rural field.",
-    featured: true,
-    exif: {
-      camera: "Sony a6700",
-      lens: "50mm",
-      aperture: "f/2.8",
-      shutterSpeed: "1/1250s",
-      iso: "ISO 100",
-    },
-  },
-  {
     id: 26,
     title: "Clay by the River",
     category: "Human Stories",
     image: "images/DSC01761.webp",
+    width: 1891,
+    height: 3362,
     caption:
       "A boy builds a small world from river clay.",
     date: "2026",
@@ -530,6 +522,8 @@ export const photos: Photo[] = [
     title: "Dhuhr on the Staircase",
     category: "Street",
     image: "images/DSC00729.webp",
+    width: 2320,
+    height: 3093,
     caption:
       "Dhuhr prayer on an emergency staircase, noticed from a bus window.",
     date: "2026",
@@ -549,6 +543,8 @@ export const photos: Photo[] = [
     title: "Hands at Work",
     category: "Street",
     image: "images/DSC00392.webp",
+    width: 4121,
+    height: 5495,
     caption: "A quiet craft in the noise of everyday life.",
     date: "2026",
     location: "Bangladesh",
@@ -563,5 +559,3 @@ export const photos: Photo[] = [
     },
   },
 ];
-
-export const featuredPhotos = photos.filter((photo) => photo.featured);

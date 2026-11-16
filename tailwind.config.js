@@ -12,7 +12,7 @@ export default {
         teal: "#6EE7B7",
       },
       fontFamily: {
-        display: ["Fraunces", "Cormorant Garamond", "Georgia", "serif"],
+        display: ["Instrument Serif", "Georgia", "serif"],
         body: ["Inter", "Manrope", "system-ui", "sans-serif"],
       },
       boxShadow: {

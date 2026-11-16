@@ -89,35 +89,6 @@ export const stories: Story[] = [
     ],
   },
   {
-    slug: "worth-stopping-for",
-    title: "Worth Stopping For",
-    description:
-      "He joked, \"এ খালি ছবি তোলে.\" But some faces are worth stopping for.",
-    coverImage: "images/DSC01805.webp",
-    coverFit: "contain",
-    category: "Human Stories",
-    date: "2026",
-    body: [
-      "He joked, \"এ খালি ছবি তোলে.\" It was a small line, half teasing and half observation: this one only takes photos.",
-      "But some faces hold enough life to stop the road for a moment. The wrinkles, the eyes, the cloth around his head, the working field behind him - everything felt like a story already written on a person.",
-      "So I took his photo. Not to prove the joke wrong, but because sometimes the honest answer is simple: yes, I take photos, and some people are worth being remembered carefully.",
-    ],
-    images: [
-      {
-        image: "images/DSC01805.webp",
-        caption:
-          "The black and white frame keeps the attention on his face, expression, and years.",
-        alt: "Black and white portrait of an elderly man wearing a headscarf in a rural field.",
-      },
-      {
-        image: "images/DSC01805-2.webp",
-        caption:
-          "The color frame brings back the heat of the field, the pink cloth, and the afternoon around him.",
-        alt: "Color portrait of an elderly man wearing a pink headscarf in a rural field with hay and trees behind him.",
-      },
-    ],
-  },
-  {
     slug: "rain-made-designs",
     title: "Rain Made Designs",
     description:

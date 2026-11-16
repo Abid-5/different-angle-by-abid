@@ -5,15 +5,15 @@ A cinematic photography portfolio for Abid Shahriar. The site is built as a pers
 ## Features
 
 - React + Vite + TypeScript
-- Tailwind CSS dark cinematic design system
+- Tailwind CSS evergreen and warm ivory editorial design system
 - Framer Motion page and component transitions
 - GSAP ScrollTrigger for selected scroll reveals and parallax
 - React Router with `HashRouter` for GitHub Pages reliability
 - Data-driven gallery and photo essays
-- Responsive masonry gallery with filters
-- Accessible lightbox with Esc, previous, and next keyboard controls
+- Responsive masonry gallery with URL-persisted filters and a mobile category selector
+- Native dialog lightbox with Escape, arrow keys, focus restoration, and camera details
 - Contact form UI with local success state
-- Experiments page with before/after slider
+- Experiments page with side-by-side edits, preserving their original crops
 - Optimized photography assets under `public/images`
 - Angular AS identity under `public/brand`
 
@@ -110,4 +110,4 @@ src/
 
 ## Notes
 
-The gallery uses real photographs. New gallery entries belong in `src/data/photos.ts`, and photo essays belong in `src/data/stories.ts`. The AS avatar is used as the favicon, and the transparent AS mark is used in the navigation and footer.
+The gallery uses real photographs. New gallery entries belong in `src/data/photos.ts`, and photo essays belong in `src/data/stories.ts`. The AS avatar is used as the favicon, and the transparent AS mark is used in the navigation. The homepage pairs a bridge photograph with a curated six-photo selection and the Golden Core Memory essay.

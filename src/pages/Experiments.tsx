@@ -1,4 +1,3 @@
-import { BeforeAfterSlider } from "../components/BeforeAfterSlider";
 import { GalleryGrid } from "../components/GalleryGrid";
 import { ScrollReveal } from "../components/ScrollReveal";
 import { SmoothPageTransition } from "../components/SmoothPageTransition";
@@ -29,23 +28,39 @@ export function Experiments() {
       </section>
 
       <section className="section-shell grid gap-10 pb-24 lg:grid-cols-[0.92fr_1.08fr] lg:items-center">
-        <ScrollReveal>
-          <BeforeAfterSlider
-            before="images/DSC01805-2.webp"
-            after="images/DSC01805.webp"
-            beforeAlt="Original color portrait of an elderly man in a rural field."
-            afterAlt="Cinematic black and white portrait highlighting character and texture."
-          />
+        <ScrollReveal className="grid grid-cols-2 items-start gap-4">
+          <figure>
+            <img
+              src="images/DSC01732.webp"
+              alt="Warm color edit of a road beneath a cloudy sky and rows of power lines."
+              width={1013}
+              height={1800}
+              className="h-auto w-full"
+              loading="lazy"
+            />
+            <figcaption className="mt-3 text-sm text-smoke">Warm color</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/DSC01732-2.webp"
+              alt="Wider, muted olive-toned edit of the same road with more of the sky and power lines."
+              width={1716}
+              height={1800}
+              className="h-auto w-full"
+              loading="lazy"
+            />
+            <figcaption className="mt-3 text-sm text-smoke">Muted tones</figcaption>
+          </figure>
         </ScrollReveal>
         <ScrollReveal delay={0.08}>
           <p className="eyeline">Editing Note</p>
           <h2 className="mt-5 font-display text-4xl font-semibold leading-tight text-bone sm:text-5xl">
-            Character through monochrome contrast.
+            One road. Two moods.
           </h2>
           <p className="muted-copy mt-6">
-            In this comparison, the color version captures the warm heat of the
-            field, while the black and white edit reveals the deep textures, lines,
-            and emotion of a lifetime.
+            Warm color and muted tones give the same road a different atmosphere.
+            The two crops shift the balance between the road and the sky; each
+            composition is shown in full.
           </p>
         </ScrollReveal>
       </section>

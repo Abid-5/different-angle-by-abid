@@ -8,27 +8,37 @@ type FilterTabsProps = {
 
 export function FilterTabs({ active, onChange }: FilterTabsProps) {
   return (
-    <div
-      className="flex gap-2 overflow-x-auto pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
-      role="tablist"
-      aria-label="Filter gallery by category"
-    >
-      {filterCategories.map((category) => (
-        <button
-          key={category}
-          type="button"
-          role="tab"
-          aria-selected={active === category}
-          onClick={() => onChange(category)}
-          className={`shrink-0 rounded-full border px-4 py-2 text-sm font-semibold transition ${
-            active === category
-              ? "border-gold bg-gold text-black"
-              : "border-white/12 bg-white/[0.035] text-smoke hover:border-white/30 hover:text-bone"
-          }`}
+    <>
+      <label className="mobile-category-filter">
+        Browse by
+        <select
+          value={active}
+          onChange={(event) => onChange(event.target.value as FilterCategory)}
+          aria-label="Photograph category"
         >
-          {category}
-        </button>
-      ))}
-    </div>
+          {filterCategories.map((category) => (
+            <option key={category} value={category}>
+              {category === "All" ? "All photographs" : category}
+            </option>
+          ))}
+        </select>
+      </label>
+      <div
+        className="gallery-filters"
+        role="group"
+        aria-label="Filter photographs by category"
+      >
+        {filterCategories.map((category) => (
+          <button
+            key={category}
+            type="button"
+            aria-pressed={active === category}
+            onClick={() => onChange(category)}
+          >
+            {category}
+          </button>
+        ))}
+      </div>
+    </>
   );
 }
