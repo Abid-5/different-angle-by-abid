@@ -21,7 +21,7 @@ export function HeroSection() {
     <section ref={heroRef} className="photo-hero" aria-labelledby="home-title">
       <motion.img
         src="images/DSC01969.webp"
-        alt="A bridge over the river, framed by a train window and the diagonal lines of the railway."
+        alt="A bridge over the river, framed by a bus window and the diagonal lines of the railway."
         className="hero-photograph"
         fetchPriority="high"
         style={reduceMotion ? undefined : { y: imageY }}

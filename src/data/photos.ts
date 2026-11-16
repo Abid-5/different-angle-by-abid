@@ -90,15 +90,15 @@ export const photos: Photo[] = [
   },
   {
     id: 36,
-    title: "Through the Train Window",
+    title: "Through the Bus Window",
     category: "Street",
     image: "images/DSC01969.webp",
     width: 1800,
     height: 1200,
-    caption: "A bridge, water, and passing lines framed by a train window.",
+    caption: "A bridge, water, and passing lines framed by a bus window.",
     date: "2026",
     location: "Bangladesh",
-    alt: "A distant bridge over water, seen through a dark train window with railings crossing the foreground.",
+    alt: "A distant bridge over water, seen through a dark bus window with railings crossing the foreground.",
     featured: true,
     exif: {
       camera: "ILCE-6700",
